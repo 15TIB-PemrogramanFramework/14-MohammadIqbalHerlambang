@@ -1,6 +1,8 @@
  <footer class="py-5 bg-dark">
       <div class="container">
-        <p class="m-0 text-center text-white">Copyright &copy; Your Website 2017</p>
+        <p class="m-0 text-center text-white">Copyright &copy; Herla Website <?php $datestring = '%d - %m - %Y | %h:%i %a';
+$time = time();
+echo mdate($datestring, $time);?></p>
       </div>
       <!-- /.container -->
     </footer>
